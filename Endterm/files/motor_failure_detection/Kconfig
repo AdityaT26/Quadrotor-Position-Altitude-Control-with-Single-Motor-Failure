@@ -1,0 +1,7 @@
+# Kconfig for the motor_failure_detection module
+
+menuconfig MODULES_MOTOR_FAILURE_DETECTION
+    bool "Motor Failure Detection"
+    default y
+    help
+      Enable motor failure detection based on sensor data.
